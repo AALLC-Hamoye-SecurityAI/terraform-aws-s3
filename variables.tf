@@ -15,6 +15,10 @@ variable "env_name" {
   description = "environment name e.g dev or prod"
 }
 
+variable "region" {
+  description = "aws region"
+}
+
 variable "access_key" {
   description = "aws access key"
 }
